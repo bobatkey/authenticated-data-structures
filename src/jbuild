@@ -1,0 +1,6 @@
+(jbuild_version 1)
+
+(library
+ ((name        authentikit)
+  ;(public_name authentikit)
+  (libraries   (ezjsonm cryptokit))))
