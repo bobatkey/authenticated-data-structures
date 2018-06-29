@@ -78,3 +78,7 @@ holds the core library `Authentikit`. There are three modules:
   
 The `test` directory holds an example use of the library: Merkle
 trees in `merkle.ml`.
+
+## See Also
+
+- [An implementation of the same idea in Haskell](https://github.com/adjoint-io/auth-adt)
