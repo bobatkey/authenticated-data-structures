@@ -1,0 +1,4 @@
+(library
+ (name        merkle)
+ (libraries   authentikit)
+ (flags       (:standard -w -27)))

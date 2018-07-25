@@ -1,0 +1,5 @@
+(library
+ (name        authentikit)
+ ;(public_name authentikit)
+ (libraries   ezjsonm cryptokit)
+ (flags       (:standard -w -27)))
