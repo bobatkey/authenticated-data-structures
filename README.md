@@ -19,8 +19,8 @@ REPL `utop`:
 
 Then to compile the example, Merkle trees, and load it into `utop` do:
 
-    jbuilder utop test
-    
+    dune utop test
+
 Example interaction:
 
 ```ocaml
@@ -69,16 +69,18 @@ holds the core library `Authentikit`. There are three modules:
 
 - `Authentikit.Kit` contains the interface `S` and the definition of `proof`s and
   a hashing function used by provers and verifiers.
-  
+
 - `Authentikit.Prover` implements the prover / server side of the authenticated
   data structure implementation.
-  
+
 - `Authentikit.Verifier` implements the verifier / client side of the
   authenticated data structure implementation.
-  
+
 The `test` directory holds an example use of the library: Merkle
 trees in `merkle.ml`.
 
 ## See Also
 
 - [An implementation of the same idea in Haskell](https://github.com/adjoint-io/auth-adt)
+- [Another implementation in Haskell, explicitly based on this one](https://github.com/ekmett/auth)
+- [And another implementation in Haskell](https://github.com/trailofbits/indurative) which mentions this code as an inspiration.
